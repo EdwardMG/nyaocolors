@@ -7,7 +7,7 @@ $nyao_colors = Cycler.new(
     Ex.redraw!
     SimpleNotify.puts color
   },
-  ->() { SimpleNotify.clear }
+  SimpleNotify.method(:clear)
 )
 
 Ex.command "ColorCycle ruby $nyao_colors.cycle"
