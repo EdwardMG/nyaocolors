@@ -103,3 +103,14 @@ hi rubyRegexpCharClass ctermfg=147 ctermbg=NONE cterm=NONE
 hi rubyRegexpSpecial ctermfg=147 ctermbg=NONE cterm=NONE
 hi rubyRegexpCharClass ctermfg=147 ctermbg=NONE cterm=NONE
 hi rubyRegexpSpecial ctermfg=147 ctermbg=NONE cterm=NONE
+hi rubyMethodBlock ctermfg=68 ctermbg=NONE cterm=NONE
+hi openSquare ctermfg=68 ctermbg=NONE cterm=NONE
+hi rubyAssign ctermfg=68 ctermbg=NONE cterm=NONE
+hi rubyDot ctermfg=68 ctermbg=NONE cterm=NONE
+hi closeSquare ctermfg=68 ctermbg=NONE cterm=NONE
+hi openParen ctermfg=68 ctermbg=NONE cterm=NONE
+hi rubyLess ctermfg=68 ctermbg=NONE cterm=NONE
+hi closeParen ctermfg=68 ctermbg=NONE cterm=NONE
+hi rubyGreater ctermfg=68 ctermbg=NONE cterm=NONE
+hi rubyException ctermfg=26 ctermbg=NONE cterm=NONE
+hi rubyEval ctermfg=12 ctermbg=NONE cterm=NONE
