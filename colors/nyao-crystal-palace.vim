@@ -114,3 +114,8 @@ hi closeParen ctermfg=68 ctermbg=NONE cterm=NONE
 hi rubyGreater ctermfg=68 ctermbg=NONE cterm=NONE
 hi rubyException ctermfg=26 ctermbg=NONE cterm=NONE
 hi rubyEval ctermfg=12 ctermbg=NONE cterm=NONE
+hi TabLineFill ctermfg=12 ctermbg=41 cterm=reverse
+hi StatusLineNC ctermfg=17 ctermbg=NONE cterm=reverse
+hi StatusLineNC ctermfg=17 ctermbg=39 cterm=reverse
+hi Folded ctermfg=15 ctermbg=24 cterm=NONE
+hi StatusLine ctermfg=26 ctermbg=255 cterm=bold,reverse
