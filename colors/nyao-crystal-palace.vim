@@ -88,4 +88,18 @@ hi TabLineFill ctermbg=24
 hi CursorLine ctermfg=NONE ctermbg=11 cterm=NONE
 hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE
 hi rubyComment ctermfg=23 ctermbg=NONE cterm=italic
-
+hi EndOfBuffer ctermfg=232 ctermbg=232 cterm=NONE
+hi rubyMethodName ctermfg=39 ctermbg=NONE cterm=NONE
+hi rubyClassName ctermfg=39 ctermbg=NONE cterm=bold
+hi rubyModuleName ctermfg=0 ctermbg=NONE cterm=NONE
+hi rubyConstant ctermfg=12 ctermbg=NONE cterm=bold
+hi rubyModuleName ctermfg=12 ctermbg=NONE cterm=NONE
+hi rubyModuleName ctermfg=12 ctermbg=NONE cterm=bold
+hi rubyClassName ctermfg=12 ctermbg=NONE cterm=bold
+hi rubyClass ctermfg=147 ctermbg=NONE cterm=bold
+hi rubyModule ctermfg=147 ctermbg=NONE cterm=NONE
+hi vimScriptDelim ctermfg=147 ctermbg=NONE cterm=italic
+hi rubyRegexpCharClass ctermfg=147 ctermbg=NONE cterm=NONE
+hi rubyRegexpSpecial ctermfg=147 ctermbg=NONE cterm=NONE
+hi rubyRegexpCharClass ctermfg=147 ctermbg=NONE cterm=NONE
+hi rubyRegexpSpecial ctermfg=147 ctermbg=NONE cterm=NONE

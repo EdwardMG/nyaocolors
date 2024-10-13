@@ -120,3 +120,17 @@ hi VertSplit ctermfg=124 ctermbg=124 cterm=NONE
 hi Visual ctermfg=197 ctermbg=16 cterm=italic
 hi rubyComment ctermfg=167 ctermbg=NONE cterm=italic
 hi Conceal ctermfg=15 ctermbg=52 cterm=bold
+hi rubyModule ctermfg=124 ctermbg=NONE cterm=bold
+hi rubyClassName ctermfg=1 ctermbg=NONE cterm=bold
+hi rubyModuleName ctermfg=1 ctermbg=NONE cterm=bold
+hi rubyMethodBlock ctermfg=217 ctermbg=NONE cterm=NONE
+hi rubyClassBlock ctermfg=217 ctermbg=NONE cterm=NONE
+hi rubyRepeat ctermfg=1 ctermbg=NONE cterm=NONE
+hi rubyControl ctermfg=1 ctermbg=NONE cterm=NONE
+hi rubyBlockParameterList ctermfg=1 ctermbg=NONE cterm=NONE
+hi rubyArrayDelimiter ctermfg=1 ctermbg=NONE cterm=bold
+hi rubyConditionalModifier ctermfg=1 ctermbg=NONE cterm=NONE
+hi rubyConditional ctermfg=1 ctermbg=NONE cterm=NONE
+hi rubyBoolean ctermfg=1 ctermbg=NONE cterm=bold
+hi vimFuncKey ctermfg=1 ctermbg=NONE cterm=NONE
+hi vimCommand ctermfg=1 ctermbg=NONE cterm=NONE

@@ -132,3 +132,16 @@ hi VertSplit ctermfg=9 ctermbg=16 cterm=NONE
 hi EndOfBuffer ctermfg=16 ctermbg=16 cterm=NONE
 hi vimHiNmbr ctermfg=223 ctermbg=16 cterm=NONE
 hi vimNotation ctermfg=255 ctermbg=NONE cterm=bold
+hi rubyClass ctermfg=124 ctermbg=NONE cterm=bold
+hi rubyConditional ctermfg=124 ctermbg=NONE cterm=bold
+hi rubyControl ctermfg=124 ctermbg=NONE cterm=bold
+hi rubyBlockParameterList ctermfg=130 ctermbg=NONE cterm=NONE
+hi rubyArrayDelimiter ctermfg=44 ctermbg=NONE cterm=bold
+hi rubyArrayDelimiter ctermfg=124 ctermbg=NONE cterm=bold
+hi vimCommand ctermfg=124 ctermbg=NONE cterm=NONE
+hi rubyRepeat ctermfg=124 ctermbg=NONE cterm=bold
+hi rubyClassBlock ctermfg=124 ctermbg=NONE cterm=NONE
+hi rubyBoolean ctermfg=124 ctermbg=NONE cterm=italic
+hi rubyRegexpSpecial ctermfg=124 ctermbg=NONE cterm=NONE
+hi rubyInterpolationDelimiter ctermfg=125 ctermbg=NONE cterm=NONE
+hi rubyRegexpSpecial ctermfg=125 ctermbg=NONE cterm=NONE
