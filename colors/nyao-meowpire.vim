@@ -145,3 +145,12 @@ hi rubyBoolean ctermfg=124 ctermbg=NONE cterm=italic
 hi rubyRegexpSpecial ctermfg=124 ctermbg=NONE cterm=NONE
 hi rubyInterpolationDelimiter ctermfg=125 ctermbg=NONE cterm=NONE
 hi rubyRegexpSpecial ctermfg=125 ctermbg=NONE cterm=NONE
+
+hi rubyException ctermfg=1 ctermbg=NONE cterm=NONE
+hi rubyArrayLiteral ctermfg=217 ctermbg=NONE cterm=NONE
+hi rubyAttribute ctermfg=217 ctermbg=NONE cterm=NONE
+hi rubyMethodName ctermfg=173 ctermbg=NONE cterm=bold
+hi rubyBlock ctermfg=1 ctermbg=NONE cterm=NONE
+hi rubyComment ctermfg=167 ctermbg=NONE cterm=italic
+hi rubyOperator ctermfg=217 ctermbg=NONE cterm=NONE
+hi TabLine ctermfg=0 ctermbg=124 cterm=italic

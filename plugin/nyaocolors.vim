@@ -135,9 +135,29 @@ class NyaoColor
     @change_background = false
   end
 
+  def hl_groups_under_cursor
+    Ev.synstack(Ev.line('.'), Ev.col('.')).map do |id|
+      Ev.synIDattr(id, "name")
+    end
+  end
+
   def initialize
-    id                 = Ev.synstack(Ev.line('.'), Ev.col('.')).last
-    @hl_group          = Ev.synIDattr(id, "name")
+    @hl_groups = hl_groups_under_cursor
+    @hl_group_cycler = Cycler.new(
+      @hl_groups,
+      ->(group_name) {
+        reinit group_name
+        cmd = "hi #{@hl_group} ctermfg=#{@fg} #{ctermbg @bg} #{cterm @cterm_state}".strip
+        Ex[cmd]
+        SimpleNotify.puts cmd.sq
+        Ex.redraw!
+        cmd
+      },
+    )
+    @hl_group_cycler.i = @hl_groups.length - 1
+    # id                 = Ev.synstack(Ev.line('.'), Ev.col('.')).last
+    # @hl_group          = Ev.synIDattr(id, "name")
+    @hl_group          = @hl_groups.last
     hi                 = highlight_info @hl_group
     @cterm_state       = hi.cterm || "NONE"
     @fg                = hi.ctermfg
@@ -212,6 +232,12 @@ class NyaoColor
           color = Ev.input('number: ')
           cycler.i = cycler.els.find {|e| e == color.to_i }
           cycler.out = cycler.action[color]
+        },
+        'o' => ->(cycler) {
+          @hl_group_cycler.p
+        },
+        'p' => ->(cycler) {
+          @hl_group_cycler.n
         },
         '1' => ->(cycler) {
           reinit "Normal"
