@@ -307,6 +307,9 @@ class NyaoColor
     c.cycle
   end
 end
+
+doc_path = Ev.expand('<sfile>:h:h') + 'doc/'
+Ex['silent! exe "helptags '+doc_path+'"']
 RUBY
 endfu
 
