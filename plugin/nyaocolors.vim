@@ -315,10 +315,12 @@ endfu
 
 call s:setup()
 
-nno \\c :ColorCycle<CR>
-nno \C :Colors<CR>
-nno \c :ruby NyaoColor.new.syntax_under_cursor<CR>
-nno \b :ruby NyaoColorBG.start<CR>
+if exists('g:nyao_always_add_mappings') && g:nyao_always_add_mappings
+  nno \\c :ColorCycle<CR>
+  nno \C :Colors<CR>
+  nno \c :ruby NyaoColor.new.syntax_under_cursor<CR>
+  nno \b :ruby NyaoColorBG.start<CR>
+endif
 
 " set notermguicolors
 " set t_Co=256
@@ -326,4 +328,3 @@ nno \b :ruby NyaoColorBG.start<CR>
 " highlight Normal ctermbg=NONE
 " highlight nonText ctermbg=NONE
 " highlight Normal ctermbg=blue
-" not found in local db
