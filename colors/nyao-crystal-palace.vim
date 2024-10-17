@@ -119,3 +119,4 @@ hi StatusLineNC ctermfg=17 ctermbg=NONE cterm=reverse
 hi StatusLineNC ctermfg=17 ctermbg=39 cterm=reverse
 hi Folded ctermfg=15 ctermbg=24 cterm=NONE
 hi StatusLine ctermfg=26 ctermbg=255 cterm=bold,reverse
+hi rubyComment ctermfg=24 ctermbg=NONE cterm=italic
